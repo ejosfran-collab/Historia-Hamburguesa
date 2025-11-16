@@ -1,0 +1,96 @@
+/* --------------------
+    1. Reset Básico
+-------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Facilita el manejo de padding y border */
+}
+
+body {
+    font-family: sans-serif; /* Fuente limpia y legible */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    background-color: #f8f8f8; /* Fondo muy claro */
+    color: #333; /* Texto oscuro */
+}
+
+/* --------------------
+    2. Header (Encabezado)
+-------------------- */
+header {
+    background-color: #e53935; /* Un rojo "ketchup" distintivo */
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid #ffb300; /* Borde amarillo "mostaza" */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* --------------------
+    3. Main (Contenido Principal)
+-------------------- */
+main {
+    width: 80%; /* Ancho del contenedor principal */
+    max-width: 1000px; /* Ancho máximo para pantallas grandes */
+    margin: 40px auto; /* Centra el contenido en la página */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    color: #e53935; /* Mismo rojo que el header */
+    border-bottom: 2px solid #ffb300;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* --------------------
+    4. Separador (HR)
+-------------------- */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* --------------------
+    5. Footer (Pie de Página)
+-------------------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #eee;
+    margin-top: 30px;
+}
+
+
